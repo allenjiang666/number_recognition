@@ -1,0 +1,5 @@
+How to Fix Permission Error When SSH into Amazon EC2 Instance
+
+https://99robots.com/how-to-fix-permission-error-ssh-amazon-ec2-instance/
+
+chmod 400 /Users/myself/Documents/MyAccessKey1.pem
