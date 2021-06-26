@@ -10,7 +10,6 @@ pycparser==2.18
 six==1.11.0
 SQLAlchemy==1.2.7
 WTForms==2.1
-tensorflow==1.14
 keras==2.2.5
 numpy==1.17.2
 pymongo==3.11.4 
