@@ -21,17 +21,16 @@ A full feature web app using MLP for digit recognition
     `docker-compose -f docker_compose.yaml up -d`
     
     *Remember* if there are multiple containers to run, it is easier to use docker-compose instead of writing individual running command on your terminal.
-2. In order for local pgadmin to connect to the postgresSQL container on the cloud, we need to add a new security rule in the security group to enable postgresSQL TCP request.
+3. In order for local pgadmin to connect to the postgresSQL container on the cloud, we need to add a new security rule in the security group to enable postgresSQL TCP request.
 
 <img src="https://i.stack.imgur.com/GLWwb.png" alt="illustration" width="400"/>
 
-3. Go to your pgadmin, click on create server
-4. Fill your public EC2 instance address and your database password in the following window. 
+4. Go to your pgadmin, click on create server
+5. Fill your public EC2 instance address and your database password in the following window. 
 
 <img src="readme_img/2021-06-27-20-21-32.png" alt="illustration" width="300"/>
 
 ## MongoDB Atlas
-
 In order for the ec2 instance to connect to the mongoDB Atlas we need to whitelist our ec2 ip address in the mongodb terminal.
 
 1. Go to cloud.mongodb.com to login in to your cluster
@@ -48,4 +47,15 @@ To activate TensorFlow 2, open an Amazon Elastic Compute Cloud (Amazon EC2) inst
 2. To Check virtual environments run:\
 `conda info --envs`
 
+## Install Required software and Packages
+1. Before installing anything, make sure you do:\
+`sudo apt update`.
+1. Install **Python3** and **python3-pip** using\
+ `sudo apt install python3.8 python3-pip `.
+1. Install *python packages* using:\
+`pip install -r requirements.txt`.
+1. Install **nginx** web service software, once installed, you don't really need to configure anything.\
+` sudo apt install nginx`
+1. Last but not the least, Install gunicorn3,you can also install Flask_Gunicorn instead using pip. \
+` sudo apt install gunicorn3` 
 
