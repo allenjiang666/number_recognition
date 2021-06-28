@@ -3,7 +3,6 @@ A full feature web app using MLP for digit recognition
 <hr>
 
 ##  1. How the Project was created
-
 ## Front-end
 ### Bootstrap Studio
 To be written by project owner. This sentence is just for place holding.
