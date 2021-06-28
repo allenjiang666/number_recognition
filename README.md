@@ -2,7 +2,25 @@
 A full feature web app using MLP for digit recognition
 <hr>
 
-## 2. Setup Development Server
+##  1. How the Project was created
+
+## Front-end
+### Bootstrap Studio
+To be written by project owner. This sentence is just for place holding.
+### Jinja2
+To be written by project owner. This sentence is just for place holding. 
+## Databases
+### PostgresSQL
+To be written by project owner. This sentence is just for place holding.
+### MongoDB
+To be written by project owner. This sentence is just for place holding.## Back-end
+### Flask
+To be written by project owner. This sentence is just for place holding.## Deep Learning
+### Train a model 
+To be written by project owner. This sentence is just for place holding.
+### Data pipeline and Apply the model
+To be written by project owner. This sentence is just for place holding.
+##  2. Setup Development Server
 ### Create an EC2 instance 
 1. You need to register an aws free account
 2. Navigate to EC2 instances and click on launch instance![](readme_img/2021-06-27-22-07-36.png)
