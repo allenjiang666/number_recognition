@@ -1,24 +1,23 @@
 # A Digit Recognition Project
-A full feature web app using MLP for digit recognition
+A full feature web app using MLP for digit recognition. You can register and create your own account to log in. After you log in, you can skected a digit on a jpeg format, and upload it. The application will analyze the picture and tell you what digit you sketched.
 <hr>
 
-##  1. How the Project was created
+## 1. Structure of the project
 ## Front-end
-### Bootstrap Studio
-To be written by project owner. This sentence is just for place holding.
-### Jinja2
-To be written by project owner. This sentence is just for place holding. 
+- Bootstrap Studio
+- Jinja2
 ## Databases
-### PostgresSQL
-To be written by project owner. This sentence is just for place holding.
-### MongoDB
-To be written by project owner. This sentence is just for place holding.## Back-end
-### Flask
-To be written by project owner. This sentence is just for place holding.## Deep Learning
-### Train a model 
-To be written by project owner. This sentence is just for place holding.
-### Data pipeline and Apply the model
-To be written by project owner. This sentence is just for place holding.
+- PostgresSQL
+- MongoDB
+## Back-end
+- Flask
+## Deep Learning
+- Tensorflow
+- Pillow
+- Numpy
+
+
+
 ##  2. Setup Development Server
 ### Create an EC2 instance 
 1. You need to register an aws free account
