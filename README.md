@@ -13,9 +13,14 @@ A full feature web app using MLP for digit recognition
 
 ## PostgresSQL container
 
-In order for local pgadmin to connect to the postgresSQL container on the cloud, we need to add a new security rule in the security group to enable postgresSQL TCP request.
+1. In order for local pgadmin to connect to the postgresSQL container on the cloud, we need to add a new security rule in the security group to enable postgresSQL TCP request.
 
 <img src="https://i.stack.imgur.com/GLWwb.png" alt="illustration" width="400"/>
+
+2. Go to your pgadmin, click on create server
+3. Fill your public EC2 instance address and your database password in the following window. 
+
+<img src="readme_img/2021-06-27-20-21-32.png" alt="illustration" width="400"/>
 
 ## MongoDB Atlas
 
@@ -26,13 +31,13 @@ In order for the ec2 instance to connect to the mongoDB Atlas we need to whiteli
 3. Go to your ec2 control panel, click on the instance and find your public Ip address. Remember the mongodb atlas free tier can not set up peering connection using private ip address. 
  
 
-## To run TensorFlow2 on the AWS DLAMI with Conda
+## TensorFlow2 on AWS DLAMI 
 To activate TensorFlow 2, open an Amazon Elastic Compute Cloud (Amazon EC2) instance of the DLAMI with Conda.
 
-For TensorFlow 2 and Keras 2 on Python 3 with CUDA 10.1 and MKL-DNN, run this command:\
+1. For TensorFlow 2 and Keras 2 on Python 3 with CUDA 10.1 and MKL-DNN, run this command:\
 `source activate tensorflow2_p36`
 
-To Check virtual environments run:\
+2. To Check virtual environments run:\
 `conda info --envs`
 
 
