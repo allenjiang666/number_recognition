@@ -83,7 +83,8 @@ To activate TensorFlow 2, open an Amazon Elastic Compute Cloud (Amazon EC2) inst
 1. Install **Python3** and **python3-pip** using\
  `sudo apt install python3.8 python3-pip `.
 1. Install *python packages* using:\
-`pip install -r requirements.txt`.
+`pip install -r requirements.txt`.\
+`pip3 install pymongo[srv]`
 1. Install **nginx** web service software, once installed, you don't really need to configure anything.\
 ` sudo apt install nginx`
 1. Last but not the least, Install gunicorn3,you can also install Flask_Gunicorn instead using pip. \
